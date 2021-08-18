@@ -1,0 +1,5 @@
+#  PAN
+
+A personal area network (PAN) is the interconnection of information technology devices within the range of an individual person, typically within a range of 10 meters. For example, a person traveling with a laptop, a personal digital assistant ([PDA](https://searchmobilecomputing.techtarget.com/definition/personal-digital-assistant)), and a portable printer could interconnect them without having to plug anything in, using some form of [wireless](https://searchmobilecomputing.techtarget.com/definition/wireless) technology. Typically, this kind of personal area network could also be interconnected without wires to the Internet or other networks.
+
+![Overview of Personal Area Network (PAN) - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20200624120206/wireless-2.png)
