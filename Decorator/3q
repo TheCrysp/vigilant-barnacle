@@ -1,0 +1,22 @@
+from functools import update_wrapper
+
+class Count:
+    def __init__(self, func) -> None:
+        update_wrapper(self,func)
+        self.func = func
+        self.cnt = 0
+
+    def __call__(self, *args: Any, **kwds: Any) -> Any:
+        self.cnt += 1
+        print(f"Current Count: {self.cnt}")
+        result = self.func(*args, **kwds)
+        return result
+
+@Count
+def fib(n):
+    if n<2:
+        return n
+    else:
+        return fib(n-1) + (n-2)
+
+fib(5)
